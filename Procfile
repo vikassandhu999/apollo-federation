@@ -1,1 +1,1 @@
-web: yarn start:prod ./posts
+web: yarn start

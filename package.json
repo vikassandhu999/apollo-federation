@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn add ./posts",
-    "start": "$NODE_ENV=development node ./posts/src/index.js"
+    "start": "node ./posts/src/index.js"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start:dev": "nodemon ./src/index.js",
+    "start:prod": "node ./src/index.js",
     "lint": "eslint --fix ./src"
   },
   "dependencies": {

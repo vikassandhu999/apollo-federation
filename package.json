@@ -5,6 +5,9 @@
   "repository": "https://github.com/vikassandhu999/learning_graphql.git",
   "author": "vikassandhu999 <vikassandhu999@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build" : "./gateway yarn install"
+  },
   "devDependencies": {
     "concurrently": "^6.2.1",
     "nodemon": "^2.0.12"

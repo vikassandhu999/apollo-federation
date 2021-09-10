@@ -1,4 +1,7 @@
-require('dotenv').config();
+if (process.env.NODE_ENV === 'development') {
+  // eslint-disable-next-line global-require
+  require('dotenv').config();
+}
 
 const express = require('express');
 const http = require('http');

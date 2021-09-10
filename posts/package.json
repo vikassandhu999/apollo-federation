@@ -1,10 +1,11 @@
 {
-  "name": "users-service",
+  "name": "posts-service",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:dev": "nodemon ./src/index.js",
+    "start:dev": "NODE_ENV=\"development\" nodemon ./src/index.js",
+    "start:prod": "node ./src/index.js",
     "lint": "eslint --fix ./src"
   },
   "dependencies": {

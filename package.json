@@ -6,7 +6,7 @@
   "author": "vikassandhu999 <vikassandhu999@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build" : "./posts yarn install"
+    "build": "yarn add ./posts"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

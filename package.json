@@ -6,7 +6,8 @@
   "author": "vikassandhu999 <vikassandhu999@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build" : "yarn add ./users"
+    "build" : "yarn add ./users",
+    "start": "node ./users/src/index.js"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

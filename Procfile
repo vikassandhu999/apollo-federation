@@ -1,1 +1,1 @@
-web: yarn start:prod ./users
+web: yarn start

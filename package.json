@@ -6,7 +6,8 @@
   "author": "vikassandhu999 <vikassandhu999@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build" : "yarn add ./gateway"
+    "build" : "yarn add ./gateway",
+    "start": "node ./gateway/src/index.js"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

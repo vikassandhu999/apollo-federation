@@ -45,6 +45,7 @@ const serviceList = [
       const user = req.user || null;
       return { user };
     },
+    introspection: true,
   });
 
   await server.start();

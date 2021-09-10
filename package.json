@@ -6,10 +6,14 @@
   "author": "vikassandhu999 <vikassandhu999@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn add ./posts"
+    "build": "yarn add ./posts",
+    "start": "$NODE_ENV=development node ./posts/src/index.js"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "posts-service": "./posts"
   }
 }

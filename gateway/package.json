@@ -1,5 +1,5 @@
 {
-  "name": "graphql",
+  "name": "federated-gateway",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

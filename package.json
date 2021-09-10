@@ -6,7 +6,7 @@
   "author": "vikassandhu999 <vikassandhu999@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build" : "./gateway yarn install"
+    "build" : "yarn add ./gateway"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

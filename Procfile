@@ -1,1 +1,1 @@
-web: ./gateway yarn start:prod
+web: yarn start:prod ./gateway
